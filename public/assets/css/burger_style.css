@@ -1,0 +1,97 @@
+html {
+ 	background-color: #FFC04C;
+ }
+
+ body {
+ 	width: 75%;
+	margin: 40px auto; 
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #FFC04C;
+ }
+
+ #cute_burger {
+ 	margin: 20px auto;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	font-family: 'Kaushan Script', cursive;
+ 	font-size: 65px;
+ 	margin: 50px;
+ }
+ .burgerAdded {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 25px;
+	width: 100%;
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	background-color: #b7ffc2;
+	border: none;
+}
+ .burgerAvailable {
+ 	font-family: 'Kaushan Script', cursive;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	border-radius: 25px;
+ 	width: 50%;
+	margin: 5px 0px 5px;
+ 	padding: 10px;
+ 	background-color: white;
+ 	border: none;
+ }
+
+ .burgerAvailable:hover {
+	background-color: #fff171;
+ }
+
+ .burgerEaten {
+ 	font-family: 'Kaushan Script', cursive;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	border-radius: 25px;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #fff171;
+ }
+
+ h2 {
+  	text-align: center;
+ 	font-family: 'Kaushan Script', cursive;
+ 	font-size: 40px;
+ 	margin: 50px;
+ }
+
+ .formContainer {
+ 	background-color: orange;
+ }
+
+ .addBurgerButton {
+ 	font-family: 'Kaushan Script', cursive;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	border-radius: 25px;
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 10px;
+ 	background-color: white;
+ 	border: none;
+ }
+
+.addBurgerButton:active {
+	background-color: white;
+}
+
+.burgerFooter {
+	margin-top: 20px;
+	background-color: #FFC04C;
+	padding: 20px 0;
+}
